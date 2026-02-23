@@ -27,7 +27,8 @@ include_directories(
 
 # Add executable (ELF)
 add_executable(3DOCR.elf src/main.cpp
-        src/takePicture3D.cpp)
+        src/camera.h
+        src/camera.cpp)
 
 
 # Link libraries

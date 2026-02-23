@@ -1,11 +1,10 @@
+#include "camera.h"
 #include <3ds.h>
 #include <stdio.h>
 
 
 #define WIDTH 400
 #define HEIGHT 240
-#define SCREEN_SIZE WIDTH * HEIGHT * 2
-#define BUF_SIZE SCREEN_SIZE * 2
 
 #define CONFIG_3D_SLIDERSTATE (*(volatile float*)0x1FF81080)
 #define WAIT_TIMEOUT 300000000ULL
